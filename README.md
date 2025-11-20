@@ -10,6 +10,20 @@ dynamic cat images.
 
 ------------------------------------------------------------------------
 
+## About The Project
+I had just started to study PHP in a University course when I found out about the existance of the **CATAAS** API.
+I immediatly imagined a possible site to simplify the image generation with the specific parameters such as the cat tag and the text inside the image.
+
+I envisioned 3 possible scenarios: 
+
+    1. The user just want a basic cat picture with no attributes -> Just press the Invia button and you'll get a random cat image.
+    
+    2. The user want a cat picture specific to one of the allowed tags ( called mood in the site ) -> Just select the mood in the selection bar and press Invia.
+
+    3. The user want a customized picture with personalized mood and text -> Choose the mood, insert the phrase you want to display in the text area below and press Invia.
+
+------------------------------------------------------------------------
+
 ## 🚀 Features
 
 -   Parameter selection via HTML form.

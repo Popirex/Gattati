@@ -6,15 +6,20 @@
 
         $arrivato = TRUE;
         $mood = htmlspecialchars($_POST["mood"]);
-        $frase = $_POST["frase"];
+        $frase = htmlspecialchars($_POST["frase"], ENT_QUOTES, 'UTF-8');
+
+        
 
         if(!empty($mood) && !empty($frase)){
 
-        $immagine ="https://cataas.com/cat/" . urlencode($mood) . "/says/" . $frase;
+        $immagine ="https://cataas.com/cat/" . urlencode($mood) . "/says/" . rawurlencode($frase);
             
         }
         elseif (!empty($mood) && empty($frase)) {
             $immagine ="https://cataas.com/cat/" . urlencode($mood);
+        }
+        elseif(empty($mood) && !empty($frase)){
+           $immagine ="https://cataas.com/cat/says/" . rawurlencode($frase);
         }
     }
 
