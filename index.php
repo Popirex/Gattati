@@ -111,7 +111,7 @@
     <?php endif ?>
 
     <footer>
-        <p>Guarda la pagina su <a href="https://github.com/Popirex/Gattati">Github!</a></p>
+        <p>Guarda la pagina su <a href="https://github.com/Popirex/Gattati">Github</a>!</p>
         <p class="outro">Popirex</p>
     </footer>
     
